@@ -1,0 +1,69 @@
+.startForm__container {
+    width: 100%;
+
+}
+
+
+.start__difficulty-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.start__difficulty-input {
+
+    color: white;
+
+    label {
+        margin: 0px 15px;
+    }
+}
+
+
+.page__slider {
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+
+.page__slider-input {
+    width: 100%;
+}
+
+.start__categories-option {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+}
+
+.start__select-catego {
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: white 1px solid;
+
+    &:hover {
+        background-color: lighten($primary, $amount: 30);
+
+    }
+}
+
+.start__control-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.start__button-submit {
+    width: 200px;
+    height: 40px;
+    margin: 50px auto;
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    font-size: 20px;
+    cursor: pointer;
+}

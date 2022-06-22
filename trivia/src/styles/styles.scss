@@ -1,0 +1,19 @@
+// * General
+@import './base/base';
+@import './base/settings';
+
+// * Auth
+
+@import './auth/login';
+@import './auth/signUp';
+
+// * Components 
+
+@import './components/answer';
+@import './components/auth';
+@import './components/buttons';
+@import './components/gamePage';
+@import './components/question';
+@import './components/resume';
+@import './components/start';
+@import './components/trivia';

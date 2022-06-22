@@ -1,0 +1,31 @@
+.answer__container {
+    background-color: $primary;
+    color: white;
+    padding: 30px;
+    // border: 1px white solid;
+    width: auto;
+    margin: 35px 40px;
+
+    ul {
+        padding-left: 0;
+    }
+}
+
+.answer__option {
+    margin: 30px 0;
+    list-style: none;
+
+    .answer__button {
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 20px;
+        width: 100%;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+
+        &:hover {
+            background-color: lighten($color: $primary, $amount: 25);
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.triviaPage__container {
+    background-color: $primary;
+    height: auto;
+    padding: 20px;
+
+}
+
+.triviaPage__instructions {
+    color: $white ;
+    margin-bottom: 30px;
+
+}
+
+.triviaPage__options {
+    padding: 20px;
+    display: flex;
+    border: 3px $white solid;
+    height: 50%;
+}
